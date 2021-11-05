@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import Chart from 'react-apexcharts'
 import { saleSumDto } from 'types/saleSum'
-import { URL_BASE_DEV, URL_BASE_PROD } from 'utils/request'
+import { URL_BASE_PROD } from 'utils/request'
 
 type IChartData = {
   labels: string[],

@@ -9,10 +9,10 @@ const Home = () => {
       <Navbar />
       <div className="container">
         <div className="jumbotron">
-          <h1 className="display-4">DSVendas</h1>
+          <h1 className="display-4">DSVendas by Thiago Santanna</h1>
           <p className="lead">Analise o desempenho das suas vendas por diferentes perspectivas</p>
           <hr />
-          <p>Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos por um back end construído com Spring Boot.</p>
+          <p>Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos por um back end construído com Spring Boot no Heroku.</p>
           <Link className="btn btn-primary btn-lg" to="/dashboard">
             Acessar a dashboard de vendas
           </Link>
